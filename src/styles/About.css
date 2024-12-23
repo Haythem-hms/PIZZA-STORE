@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 90vh;
+}
+
+.aboutLeft {
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutRight {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutRight h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+.aboutRight p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-top: 10px;
+  font-family: 'Verdana', sans-serif;
+}
